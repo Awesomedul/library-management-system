@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./build/",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "lib": ["es5", "es6", "dom"],
+        "jsx": "react",
+        "strict": true,
+        "noEmit": true,
+        "experimentalDecorators": true,
+        "baseUrl": "./packages",
+        "paths": {
+            "@material-ui/core": ["./material-ui/src"],
+            "@material-ui/core/*": ["./material-ui/src/*"],
+            "@material-ui/lab": ["./material-ui-lab/src"],
+            "@material-ui/lab/*": ["./material-ui-lab/src/*"]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        /* ... */
+    }
+}
